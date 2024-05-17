@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PandaTE Project Screenshots</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+    <style>
+        body {
+            background-color: #f2f2f2;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+        .container {
+            background-color: #fff;
+            padding: 60px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-weight: 700;
+            color: #333;
+        }
+        .screenshot {
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .screenshot img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .screenshot img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .screenshot-details {
+            padding: 15px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-top: -20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .screenshot-details h5 {
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .screenshot-details p {
+            margin-bottom: 0;
+            color: #666;
+        }
+        .text-center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .medal-img {
+            width: 50px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+            margin-left: 10px; /* Space between the text and the image */
+        }
+
+
+        
+        .contents {
+            display: flex;
+            align-items: center;
+        }
+        
+        .contents p {
+            flex: 1;
+        }
+        
+        #certificate-image {
+            width: 40%;
+            height: auto; /* Maintain aspect ratio */
+            margin-left: 20px; /* Adjust spacing between paragraph and image */
+        }
+        p{
+            font-weight: 700;
+            color: #333;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div  class="logo"><b>GuruCharan</b></div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./index.html#experience">Experience</a></li>
+            <li><a href="./index.html#projects">Projects</a></li>
+            <li><a href="achieve.html">Achievements</a></li>
+            <li><a href="./index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">K. Gurucharan Reddy</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="./index.html#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="./index.html#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="./index.html#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="achieve.html" >Achievements</a></li>
+            <li><a href="./index.html#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+    <div class="container">
+        <h1 class="text-center">
+            Achievements
+            <img src="./assets/medal.png" alt="Medal" class="medal-img">
+        </h1>
+        
+ 
+        <div class="screenshot-details">
+            <h5>Introduction</h5>
+            <p>Here, I proudly present some of my notable achievements and accomplishments. Each milestone represents dedication, hard work, and passion. Scroll down to explore!</p>
+        </div>
+        <br>
+     
+        <div class="row">
+            <div class="col-md-12 screenshot">
+                <h4><b>Intern of the Year Certificate - Adglob Infosystem</b></h4>
+                <br>
+                <img src="./acheve/Best intern.jpg" alt="Screenshot 1">
+                <br>
+                <br>
+                <br>
+                <div class="screenshots-details">
+                   
+                    <div class="contents">
+                        <p>
+                            I am honored to share my <b>Intern of the Year Certificate</b> from Adglob Infosystem, recognizing my exceptional contributions and dedication during my internship period.
+                            
+                            This certificate stands as a testament to the invaluable experience gained and the skills honed during my time at Adglob. It represents the culmination of hard work, perseverance, and a commitment to excellence in every task undertaken.
+                            
+                            I am grateful for the opportunity provided by <b>Adglob Infosystem</b> to learn, grow, and make meaningful contributions to the team. This recognition inspires me to continue striving for excellence in my future endeavors.
+                        </p>
+                        <img src="./acheve/WhatsApp Image 2024-04-21 at 18.35.08_d8df6d6a.jpg" alt="Intern of the Year Certificate" id="certificate-image">
+                    </div>
+                </div>
+                
+                
+            </div>
+            <br>
+            <br>
+            <div class="col-md-12 screenshot">
+                <h4><b>Full-stack development using django Completion certificate</b></h4>
+                <br>
+                <img src="./acheve/django.png" alt="Screenshot 1">
+                <br>
+                <br>
+                <br>
+                <div class="screenshot-details">
+                    <p>I am excited to announce the successful completion of my Django Full Stack Developer internship, marked by the development of the Suguguy E-commerce Website project. Utilizing SQLite as the database management system, I meticulously crafted each aspect of the platform, from robust user authentication to seamless product management and secure payment integration. This project showcases my adeptness in Django's framework and SQLite's capabilities, reinforcing my expertise in full-stack development and adding a significant asset to my portfolio.</p>
+                </div>
+            </div>
+            <div class="col-md-12 screenshot">
+                <h4><b>Completion certificate of DSA</b></h4>
+                <br>
+                <br>
+                <img src="./acheve/dsa.png" alt="Screenshot 1">
+                <br>
+                <br>
+                <br>
+                <div class="screenshot-details">
+            
+                    <p>I'm thrilled to announce the completion of my internship at Prep Labs, where I delved deep into Data Structures and Algorithms (DSA). This journey has been instrumental in honing my problem-solving skills and algorithmic thinking, providing a solid foundation for tackling complex challenges in software development. With this achievement complementing my recent Django Full Stack Developer internship, I'm eager to leverage my diverse skill set and practical experience to make meaningful contributions in the field.
+                    </p>
+                </div>
+            </div>
+        
+  
+       
+            <!-- Add more screenshots as needed -->
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

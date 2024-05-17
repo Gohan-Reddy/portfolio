@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PandaTE Project Screenshots</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <style>
+        body {
+            background-color: #f2f2f2;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            font-family: 'Arial', sans-serif;
+        }
+        .container {
+            background-color: #fff;
+            padding: 60px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-weight: 700;
+            color: #333;
+        }
+        .screenshot {
+            margin-bottom: 30px;
+            position: relative;
+        }
+        .screenshot img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .screenshot img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .screenshot-details {
+            padding: 15px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin-top: -20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .screenshot-details h5 {
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        .screenshot-details p {
+            margin-bottom: 0;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div  class="logo"><b>GuruCharan</b></div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./index.html#experience">Experience</a></li>
+            <li><a href="./index.html#projects">Projects</a></li>
+            <li><a href="achieve.html">Achievements</a></li>
+            <li><a href="./index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">K. Gurucharan Reddy</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="./index.html#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="./index.html#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="./index.html#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="achieve.html" >Achievements</a></li>
+            <li><a href="./index.html#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <br>
+      <br>
+    <div class="container">
+        <h1 class="text-center">PandaTE Project Screenshots</h1>
+ 
+        <div class="screenshot-details">
+            <h5>Introduction</h5>
+            <p>Implemented a comprehensive <b>Business Management System (BMS)</b>
+                using Laravel and JavaScript, enabling users to efficiently track their
+                business activities. The system encompasses a wide range of
+                functionalities, including product and customer management, invoice
+                and estimate generation, as well as cash flow tracking. Employed
+                dynamic frontend calculations using JavaScript frameworks such as
+                Sahi and DOM manipulation techniques, coupled with event listeners
+                to ensure smooth user experience and alleviate server load.
+                Contributed to enhancing scalability and performance while ensuring
+                seamless functionality across the application.</p>
+        </div>
+        <br>
+     
+        <div class="row">
+            <div class="col-md-12 screenshot">
+                <img src="./pandate/register.png" alt="Screenshot 1">
+                <br>
+                <br>
+                <br>
+                <div class="screenshot-details">
+                    <h5>Register page</h5>
+                    <p>The registration page serves as the secure entry point for new users to join tihs business management system, featuring a user-friendly form where users can create their accounts by providing essential information such as name, email, and password. It includes robust security measures like encryption protocols to protect user data during transmission and validation checks to ensure strong password creation. Custom branding elements reflect this business identity, providing a cohesive user experience. Accessibility features ensure compatibility with assistive technologies, making the registration process inclusive for all users. Links to terms of service and privacy policies are provided to ensure transparency, while support resources offer assistance if users encounter any issues during registration.</p>
+                </div>
+            </div>
+            <div class="col-md-12 screenshot">
+                <img src="./pandate/login.png" alt="Screenshot 1">
+                <br>
+                <br>
+                <br>
+                <div class="screenshot-details">
+                    <h5>Login page</h5>
+                    <p>The login page serves as the secure entry point to this business management system, featuring a user-friendly login form where users input their credentials and access their accounts. It includes options for password retrieval, remembers me functionality, and robust security measures like encryption protocols and error handling for login failures. Custom branding elements reflect this business identity, while optional multi-factor authentication enhances security. Accessibility features ensure compatibility with assistive technologies, and links to terms of service, privacy policies, and support resources offer transparency and assistance.</p>
+                </div>
+            </div>
+            <div class="col-md-12 screenshot">
+                <img src="./pandate/userprofile.png" alt="Screenshot 1">
+                <br>
+                <br>
+                <br>
+                <div class="screenshot-details">
+                    <h5>Profile page</h5>
+                    <p>profile page in this business management system presents a comprehensive overview of the business's essential details. This page prominently displays the company name, address, and contact information, ensuring all relevant data is easily accessible. Additionally, the company logo is featured to reinforce brand identity and provide a professional appearance. Users can view and update this information as needed, ensuring the profile remains accurate and up-to-date. The clean and organized layout of the business profile page enhances user experience by providing all crucial business details in one central location.</p>
+                </div>
+            </div>
+            <div class="col-md-12 screenshot">
+                <img src="./pandate/dashboard.png" alt="Screenshot 1">
+                <br>
+                <br>
+                <br>
+                <div class="screenshot-details">
+                    <h5>Dashboard</h5>
+                    <p>The dashboard of this business management system offers a centralized hub where users can access comprehensive insights into their sales, purchase expenses, revenue, and financial health, succinctly presented through intuitive graphs and summarization details. The dashboard aggregates data on user sales, purchase expenses, and revenue, culminating in a clear depiction of profit and loss trends via graphical representations. Users can swiftly grasp their financial performance at a glance, empowering informed decision-making. Additionally, the dashboard provides summarized details of invoices and bills, including overdue and payable amounts, ensuring users stay informed about their financial obligations. This consolidated view enhances efficiency in managing finances, enabling users to track income and expenses effectively while maintaining financial health.</p>
+                </div>
+            </div>
+            <div class="col-md-12 screenshot">
+                <img src="./pandate/estimate.png" alt="Screenshot 1">
+                <br>
+                <br>
+                <br>
+                <div class="screenshot-details">
+                    <h5>Estimate page</h5>
+                    <p>The estimate page in this business management system allows users to generate detailed estimate bills for potential transactions. This page provides a user-friendly form where users can input necessary details such as item descriptions, quantities, prices, and applicable discounts. Each estimate includes a breakdown of costs, taxes, and the total estimated amount, offering a clear financial overview for customers. Users can also add notes or terms and conditions to the estimates for additional context. The generated estimate can be saved, printed, or emailed directly to customers, facilitating smooth and efficient communication. This page ensures that all estimates are professionally formatted and easily accessible for future reference or conversion into actual invoices.</p>
+                </div>
+            </div>
+            <div class="col-md-12 screenshot">
+                <img src="./pandate/customer.png" alt="Screenshot 1">
+                <br>
+                <br>
+                <br>
+                <div class="screenshot-details">
+                    <h5>Customers page</h5>
+                    <p>The customer details page in this business management system features a streamlined layout where customer information is presented in rows. Each row displays the customer's name, Gmail address, creation date, and offers actions like delete and edit. The delete option allows removal of customers from the system with confirmation prompts to prevent accidental deletions, while the edit function enables updating of customer details such as name and email. Search and filter options aid in quickly locating specific customers, while pagination controls manage large datasets. A navigational bar provides access to other sections of the system, and a footer contains essential links and contact information. Overall, the page offers a user-friendly interface for efficient management of customer details.</p>
+                </div>
+            </div>
+            <div class="col-md-12 screenshot">
+                <img src="./pandate/invoice.png" alt="Screenshot 1">
+                <br>
+                <br>
+                <br>
+                <div class="screenshot-details">
+                    <h5>Invoice</h5>
+                    <p>The invoice page in this business management system enables users to create detailed invoice bills for completed transactions. Users can input all necessary details, such as item descriptions, quantities, prices, discounts, and taxes, resulting in a comprehensive breakdown of the total amount due. Additionally, the page offers an option to record payments or transactions, allowing users to log successful payments against the invoice. This includes capturing details of the account to which the payment has been credited. With this functionality, users can efficiently track the status of each invoice, ensuring accurate and up-to-date financial records. The invoice page ensures seamless invoicing and payment tracking, contributing to effective financial management.</p>
+                </div>
+            </div>
+            <div class="col-md-12 screenshot">
+                <img src="./pandate/recordpayment.png" alt="Screenshot 1">
+                <br>
+                <br>
+                <br>
+                <div class="screenshot-details">
+                    <h5>Record Transactions</h5>
+                    <p>business management system features a robust "Record Payment" option, allowing users to accurately log payments received against invoices. When recording a payment, users can input essential details such as the payment amount, date, and method (e.g., credit card, bank transfer, cash). Additionally, users can specify the account to which the payment has been credited, ensuring precise financial tracking. This functionality helps maintain up-to-date records of paid and outstanding invoices, providing a clear overview of financial transactions. By utilizing the "Record Payment" option, users can ensure accurate reconciliation of accounts and efficient management of cash flow within the system.</p>
+                </div>
+            </div>
+            <div class="col-md-12 screenshot">
+                <img src="./pandate/invoicebill.png" alt="Screenshot 1">
+                <br>
+                <br>
+                <br>
+                <div class="screenshot-details">
+                    <h5>Invoice bill</h5>
+                    <p>The bill display page in this business management system offers a comprehensive view of users' bills, incorporating a clear indication of their payment status alongside essential details. Each bill entry features columns displaying the bill number, creation date, total amount, and the status, clearly denoting whether the bill is paid or unpaid. Actions like viewing details or downloading the bill further enhance user convenience. Users can effortlessly monitor their payment status, facilitating efficient management of finances. Search and filter functionalities expedite locating specific bills, while pagination controls manage extensive bill lists. Seamless navigation via a prominent toolbar ensures users can explore other system sections with ease. The footer section provides essential links and contact information, enriching user experience. Overall, the bill display page delivers a user-friendly interface empowering users to oversee their bills effectively while maintaining clarity on their payment status.</p>
+                </div>
+            </div>
+            <div class="col-md-12 screenshot">
+                <img src="./pandate/transaction.png" alt="Screenshot 1">
+                <br>
+                <br>
+                <br>
+                <div class="screenshot-details">
+                    <h5>Transactions page</h5>
+                    <p>The transaction history page in this business management system serves as a comprehensive repository for all financial transactions. This page meticulously records every transaction made, providing users with detailed information such as transaction ID, date, time, involved accounts, amounts, and descriptions. Users can easily track the flow of funds, whether for sales, purchases, payments, or receipts. The page includes search and filter functionalities, enabling users to quickly locate specific transactions based on criteria like date range, amount, or account details. This thorough documentation ensures transparency, aids in financial reconciliation, and supports auditing processes by offering a clear and accessible record of all past transactions.</p>
+                </div>
+            </div>
+            <div class="col-md-12 screenshot">
+                <img src="./pandate/vendors.png" alt="Screenshot 1">
+                <br>
+                <br>
+                <br>
+                <div class="screenshot-details">
+                    <h5>Vendors</h5>
+                    <p>The vendor page in this business management system provides a centralized space for users to manage and store vendor information. Users can easily add new vendors by inputting essential details such as vendor name, contact information, address, and payment terms. Each vendor entry can also include additional notes and tags for better organization and reference. This page allows users to view, edit, and update vendor information as needed, ensuring that all data remains accurate and current. The vendor page streamlines vendor management, facilitating efficient procurement processes and fostering strong supplier relationships by keeping all relevant information readily accessible in one location.</p>
+                </div>
+            </div>
+  
+       
+            <!-- Add more screenshots as needed -->
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div  class="logo"><b>GuruCharan</b></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="achieve.html">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">K. Gurucharan Reddy</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="achieve.html" onclick="toggleMenu()">Achievements</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img
+          src="./assets/profile.jpg"
+          alt="Profile picture"
+          class="about-pic"
+        />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 style="color:rgb(41, 85, 244)" class="title">K. Gurucharan Reddy</h1>
+        <p class="section__text__p2">Backend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Resume (2).pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/k-gurucharan-reddy-7a66612bb/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Gohan-Reddy'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <br>
+      <div class="section-container">
+        <!-- <div class="section__pic-container">
+          <img
+            src="./assets/profile2.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div> -->
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3 interships <br />Backend Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelors in technology(B.Tech in <b>Computer science and engineering</b>)<br />Diploma in <b>Mechanical Engineering</b></p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Hobbies</h3>
+              <p>Traveling<br />Playing Guitar<br />Reading Books</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p style="text-align:justify;">
+              During my B.Tech in Computer Science and Engineering, I had the opportunity to complete three internships that significantly shaped my professional skills and experience. These internships were pivotal in enhancing my understanding of various technologies and frameworks, as well as in applying theoretical knowledge to real-world projects.
+
+The first internship was centered around Django Backend Development. In this role, I was responsible for developing an Ecommerce website, which involved designing and implementing a robust backend system. I managed Sqlite databases, ensuring data integrity and optimizing database performance. This experience not only strengthened my backend development skills but also provided me with a deep understanding of database management and web application architecture.
+
+The second internship focused on Laravel and JS/Ajax. Here, I worked on dynamic web applications, integrating Laravel’s powerful backend capabilities with the interactive front-end functionality provided by JavaScript and Ajax. This internship allowed me to enhance the user experience by implementing real-time updates and seamless interactivity, making the applications more responsive and user-friendly.
+
+My third internship was in Data Structures and Algorithms (DSA). This experience was crucial in developing my problem-solving skills. I worked on optimizing code efficiency by applying advanced DSA techniques. This internship involved tackling complex problems and finding the most efficient algorithms to solve them, which was a significant boost to my analytical and coding capabilities.
+
+On a personal level, I am deeply passionate about traveling, playing the guitar, and reading books. Traveling allows me to explore new cultures and gain diverse perspectives, enriching my understanding of the world. Playing the guitar is my creative outlet, providing a balance to my technical work with artistic expression. Reading books is a constant source of knowledge and inspiration, helping me stay intellectually stimulated and informed about various topics.
+            </p>
+          </div>
+        </div>
+      </div>
+ 
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ajax</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Json</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Jquery</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+             
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySql</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Laravel(php)</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Django(Python)</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Servlet(JAVA)</h3>
+                  <p>Basics</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>sqite</h3>
+                  <p>Basics</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PostgreSQL</h3>
+                  <p>Basics</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Gohan-Reddy'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='/pandaTE.html'"
+              >
+                Live Demo
+              </button>
+            </div>
+            <p style="padding: 10px; text-align:justify;"><b>PandaTE (Track-enterprises)</b> Implemented as a comprehensive <b>Business Management System (BMS)</b>
+              using <b>Laravel</b>  and <b>JavaScript</b> , enabling users to efficiently track their
+              business activities. The system encompasses a wide range of
+              functionalities, including product and customer management, invoice
+              and estimate generation, as well as cash flow tracking. Employed
+              dynamic frontend calculations using JavaScript frameworks such as
+              DOM manipulation techniques
+             </p>
+          </div>
+ 
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Gohan-Reddy'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='sugubuy.html'"
+              >
+                Live Demo
+              </button>
+            </div>
+            <p style="padding: 10px; text-align:justify;"><b>Sugubuy</b> is an e-commerce website I developed using Django for the backend, with HTML, CSS, JavaScript, and JSON for the frontend. The site leverages SQLite for its database. This platform allows users to browse, search, and purchase a wide range of products seamlessly. My focus was on creating a robust and scalable backend with Django, ensuring data integrity and efficient transaction handling. On the frontend, I aimed for a responsive and user-friendly interface that enhances the shopping experience. 
+             </p>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/p3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Gohan-Reddy'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://jstourntravels.in/'"
+              >
+                Live Demo
+              </button>
+            </div>
+            <p style="padding: 10px; text-align:justify;"><b>JSTour&Travels</b> is a static website I developed using HTML, CSS, Bootstrap, and JavaScript to enhance the travel experience in Odisha, India. As part of Team JSTour&Travels, I created a user-friendly platform that allows visitors to explore the state, starting from key cities like Bhubaneswar, Cuttack, and Puri. it's goal was to offer safe, fast, reliable, and comfortable taxi services at reasonable prices with trained professional drivers. The website highlights our commitment to providing exceptional cab services and invites users to experience the true essence of Odisha.
+             </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">kgurucharanreddy2001@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/k-gurucharan-reddy-7a66612bb/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 K. Gurucharan Reddy. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
